@@ -8,7 +8,7 @@ def rectangle_area():
 def circle_area():
     radius = float(input("Enter the radius of the circle: "))
     area = 3.14159 * (radius ** 2)  # Using π ≈ 3.14159
-    print(f"The area of the circle is: {area:.2f}")
+    print(f"The area of the circle is: {area:.2f}")  # 2 decimal point
 
 
 def triangle_area():
